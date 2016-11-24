@@ -25,3 +25,6 @@ import EnhancedInput from '../components/enhancedInput/enhancedInput';
 * **number**: only allows numbers.
 * **phone**: only allows Vietnamese phone number format: *012*, *016*, *0186*, *0188*, *0199*, *0868*, *088*, *089*, *09*
 * **email**: only allows email.
+
+## License
+See the [LICENSE](https://github.com/phamtri2395/react-enhanced-input/blob/master/LICENSE.md) file for license rights and limitations (MIT).
