@@ -5,7 +5,7 @@
 
 * Import file enhancedInput.jsx in enhancedInput folder to your project.
 ```javascript
-import Enhanced from '../components/enhancedInput/enhancedInput';
+import EnhancedInput from '../components/enhancedInput/enhancedInput';
 ```
 * Use component.
 ```javascript
@@ -19,7 +19,7 @@ import Enhanced from '../components/enhancedInput/enhancedInput';
 * *type*: number, phone, email,...
 * *errorMessage*: error message to show when input failed for validation
 
-**Beside**: this component provide all built-in props for standard input component: *style*, *ref*, *value*, *maxLength*, *required*, *onChange*, *onBlur*,...
+**Beside**: this component provides all built-in props for standard input component: *style*, *ref*, *value*, *maxLength*, *required*, *onChange*, *onBlur*,...
 
 ## Supported types
 * **number**: only allows numbers.
