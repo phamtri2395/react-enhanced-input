@@ -9,6 +9,10 @@ export default class enhancedInput extends Component {
     this.delay = props.delay || 500;
     this.delayTimeout = null;
 
+    this.getStatus = typeof props.getStatus === 'function' ? props.getStatus : null;
+    // Initialize status
+    this.getStatus(true);
+
     this.state = {
       errorMessage: props.errorMessage,
       isError: false
@@ -33,6 +37,8 @@ export default class enhancedInput extends Component {
       this.setState({
         isError: true
       });
+
+      this.getStatus(false);
     }
   }
 
